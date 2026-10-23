@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-23T23:02:17.095Z",
+  "browser": "Edge/Chromium via CDP",
+  "results": [
+    {
+      "name": "E01 página protegida redireciona ao login",
+      "status": "PASSOU"
+    },
+    {
+      "name": "E02 login real pelo formulário",
+      "status": "PASSOU"
+    },
+    {
+      "name": "E03 cadastro e persistência após recarga",
+      "status": "PASSOU"
+    },
+    {
+      "name": "E04 pesquisa por nome",
+      "status": "PASSOU"
+    },
+    {
+      "name": "E05 edição de paciente",
+      "status": "PASSOU"
+    },
+    {
+      "name": "E06 inativação e reativação",
+      "status": "PASSOU"
+    },
+    {
+      "name": "E07 criação de agendamento e recarga",
+      "status": "PASSOU"
+    },
+    {
+      "name": "E08 conflito exibido sem criar registro",
+      "status": "PASSOU"
+    },
+    {
+      "name": "E09 remarcação pelo formulário",
+      "status": "PASSOU"
+    },
+    {
+      "name": "E10 cancelamento e histórico",
+      "status": "PASSOU"
+    },
+    {
+      "name": "E11 layout em 320px: sete páginas sem overflow",
+      "status": "PASSOU"
+    },
+    {
+      "name": "E11 layout em 375px: sete páginas sem overflow",
+      "status": "PASSOU"
+    },
+    {
+      "name": "E11 layout em 768px: sete páginas sem overflow",
+      "status": "PASSOU"
+    },
+    {
+      "name": "E11 layout em 1366px: sete páginas sem overflow",
+      "status": "PASSOU"
+    },
+    {
+      "name": "E12 texto 200% sem overflow",
+      "status": "PASSOU"
+    },
+    {
+      "name": "E13 logout e retorno ao login",
+      "status": "PASSOU"
+    },
+    {
+      "name": "E14 sem exceções JavaScript não tratadas",
+      "status": "PASSOU"
+    }
+  ]
+}

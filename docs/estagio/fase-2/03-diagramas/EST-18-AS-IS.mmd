@@ -1,0 +1,10 @@
+flowchart TD
+  A([Solicitação de atendimento]) --> B[Anotar dados administrativos manualmente]
+  B --> C[Consultar agenda manual]
+  C --> D{Horário livre?}
+  D -->|Não| E[Combinar outro horário por contato manual]
+  E --> C
+  D -->|Sim| F[Registrar horário e paciente na agenda manual]
+  F --> G[Comunicar combinação por contato manual]
+  G --> H([Registro manual mantido])
+  I[Hipótese de processo anterior; não validada por entrevista ou observação]

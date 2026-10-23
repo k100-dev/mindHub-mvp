@@ -31,3 +31,18 @@ Inspeção preliminar concluída por operações de leitura. Nenhum arquivo orig
 - Verificada novamente a árvore do projeto, incluindo arquivos ocultos e excluindo dependências, `.git` e `.next`: o documento solicitado continua ausente.
 - Busca adicional pelo nome `CODEX-INSTRUCOES-MINDHUB-MVP-FASE2*` nas partes acessíveis de `C:\Users\u` não retornou arquivos. A busca teve erros de acesso suprimidos; não comprova ausência em diretórios inacessíveis.
 - Resultado: a leitura integral e a execução da missão continuam dependendo da disponibilização do documento ou de seu caminho acessível. Nenhum arquivo do MindHub original foi alterado.
+
+## 2026-10-23 — Documento disponibilizado e missão executada
+
+Documento lido integralmente após a disponibilização. O impedimento de leitura foi resolvido; permanecem apenas as pendências institucionais abaixo.
+
+- A: original remoto inspecionado no commit 0cf85e52eb8740d7fa112383bf5f4e4804507db6; não confundir com cópia local antiga b9487eff01100d9048644c17b31fcb73baf80586. Destino remoto estava vazio. Diagnóstico detalhado em docs/estagio/fase-2/00-controle/DIAGNOSTICO.md.
+- B: Git independente iniciado, origin mindHub-mvp, main com diagnóstico e branch fase-2/mvp-academico. Recorte e decisões registrados antes do código.
+- C: UC01/UC02, autenticação profissional, histórico, persistência SQLite, migração e seed sintético implementados no MVP. Commit de código 923f5b0844113a3863b1e5fa9231cd9fadad7a83. Stack simplificada TypeScript/Node/HTML/CSS, sem conexão ao Supabase original.
+- D: fontes editáveis Mermaid/SVG e BPMN, com estados, entidades e operações coerentes com o recorte. As-Is é hipótese manual pendente de validação factual.
+- E: requisitos, UCs, casos funcionais distintos, glossário, relatório e dez capturas reais; 18 PDFs individuais de prévia, 31 páginas revisadas, fora da pasta final. Não foi inventado RPOD nem alegado uso de modelos acadêmicos indisponíveis.
+- F: instalação recuperada por cache oficial local após ECONNRESET; npm ci limpo, lint, tipagem, build, dez testes e 17 verificações de navegador aprovados. Migração/seed idempotentes; compilado executado e autenticado. Auditoria, matriz, índice, histórico e manifesto com SHA-256 registrados.
+
+O MindHub original permanece preservado, inclusive a alteração preexistente no lockfile. Nenhum `.env`, dado pessoal ou banco original foi copiado. Não houve acesso a produção.
+
+Documentação final de referência: docs/estagio/fase-2/INDICE.md. Para finalizar a entrega acadêmica faltam os modelos DOCX, definição de RPOD, confirmação de As-Is e revisão/aprovação do aluno. Sem envio ou aceite institucional presumido.

@@ -9,3 +9,4 @@ test-results/
 playwright-report/
 *.tsbuildinfo
 .tools-cache/
+docs/estagio/fase-2/06-evidencias/previas-html/

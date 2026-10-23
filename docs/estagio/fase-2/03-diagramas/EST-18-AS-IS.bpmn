@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="MindHubAsIs" targetNamespace="https://github.com/k100-dev/mindHub-mvp">
+  <bpmn:process id="ManualAnteriorHipotetico" name="As-Is hipotético — validar com o aluno" isExecutable="false">
+    <bpmn:documentation>Processo manual anterior hipotético. Nenhuma entrevista ou observação confirma estes passos. Não representa o fluxo do software.</bpmn:documentation>
+    <bpmn:startEvent id="inicio" name="Solicitação manual"/>
+    <bpmn:manualTask id="anotar" name="Anotar dados administrativos"/>
+    <bpmn:manualTask id="consultar" name="Consultar agenda manual"/>
+    <bpmn:exclusiveGateway id="livre" name="Horário livre?"/>
+    <bpmn:manualTask id="combinar" name="Combinar outro horário"/>
+    <bpmn:manualTask id="registrar" name="Registrar horário e paciente"/>
+    <bpmn:manualTask id="comunicar" name="Comunicar por contato manual"/>
+    <bpmn:endEvent id="fim" name="Registro manual mantido"/>
+    <bpmn:sequenceFlow id="f1" sourceRef="inicio" targetRef="anotar"/>
+    <bpmn:sequenceFlow id="f2" sourceRef="anotar" targetRef="consultar"/>
+    <bpmn:sequenceFlow id="f3" sourceRef="consultar" targetRef="livre"/>
+    <bpmn:sequenceFlow id="f4" sourceRef="livre" targetRef="combinar" name="Não"/>
+    <bpmn:sequenceFlow id="f5" sourceRef="combinar" targetRef="consultar"/>
+    <bpmn:sequenceFlow id="f6" sourceRef="livre" targetRef="registrar" name="Sim"/>
+    <bpmn:sequenceFlow id="f7" sourceRef="registrar" targetRef="comunicar"/>
+    <bpmn:sequenceFlow id="f8" sourceRef="comunicar" targetRef="fim"/>
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="diagrama"><bpmndi:BPMNPlane id="plano" bpmnElement="ManualAnteriorHipotetico">
+    <bpmndi:BPMNShape id="inicio_di" bpmnElement="inicio"><dc:Bounds x="40" y="100" width="36" height="36"/></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="anotar_di" bpmnElement="anotar"><dc:Bounds x="130" y="80" width="160" height="80"/></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="consultar_di" bpmnElement="consultar"><dc:Bounds x="350" y="80" width="160" height="80"/></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="livre_di" bpmnElement="livre"><dc:Bounds x="570" y="95" width="50" height="50"/></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="combinar_di" bpmnElement="combinar"><dc:Bounds x="350" y="260" width="160" height="80"/></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="registrar_di" bpmnElement="registrar"><dc:Bounds x="690" y="80" width="160" height="80"/></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="comunicar_di" bpmnElement="comunicar"><dc:Bounds x="910" y="80" width="160" height="80"/></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="fim_di" bpmnElement="fim"><dc:Bounds x="1130" y="100" width="36" height="36"/></bpmndi:BPMNShape>
+    <bpmndi:BPMNEdge id="f1_di" bpmnElement="f1"><di:waypoint x="76" y="118"/><di:waypoint x="130" y="118"/></bpmndi:BPMNEdge>
+    <bpmndi:BPMNEdge id="f2_di" bpmnElement="f2"><di:waypoint x="290" y="118"/><di:waypoint x="350" y="118"/></bpmndi:BPMNEdge>
+    <bpmndi:BPMNEdge id="f3_di" bpmnElement="f3"><di:waypoint x="510" y="118"/><di:waypoint x="570" y="118"/></bpmndi:BPMNEdge>
+    <bpmndi:BPMNEdge id="f4_di" bpmnElement="f4"><di:waypoint x="595" y="145"/><di:waypoint x="595" y="300"/><di:waypoint x="510" y="300"/></bpmndi:BPMNEdge>
+    <bpmndi:BPMNEdge id="f5_di" bpmnElement="f5"><di:waypoint x="430" y="260"/><di:waypoint x="430" y="160"/></bpmndi:BPMNEdge>
+    <bpmndi:BPMNEdge id="f6_di" bpmnElement="f6"><di:waypoint x="620" y="118"/><di:waypoint x="690" y="118"/></bpmndi:BPMNEdge>
+    <bpmndi:BPMNEdge id="f7_di" bpmnElement="f7"><di:waypoint x="850" y="118"/><di:waypoint x="910" y="118"/></bpmndi:BPMNEdge>
+    <bpmndi:BPMNEdge id="f8_di" bpmnElement="f8"><di:waypoint x="1070" y="118"/><di:waypoint x="1130" y="118"/></bpmndi:BPMNEdge>
+  </bpmndi:BPMNPlane></bpmndi:BPMNDiagram>
+</bpmn:definitions>

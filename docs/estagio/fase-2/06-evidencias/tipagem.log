@@ -1,0 +1,4 @@
+
+> mindhub-mvp-academico@0.1.0 typecheck
+> tsc --noEmit
+

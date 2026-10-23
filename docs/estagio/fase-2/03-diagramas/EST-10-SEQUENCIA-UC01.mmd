@@ -1,0 +1,21 @@
+sequenceDiagram
+  actor P as Profissional
+  participant B as Navegador
+  participant H as src/server.ts
+  participant S as MindHub
+  participant D as SQLite
+  P->>B: preencher cadastro/edição
+  B->>H: POST /pacientes/novo ou /pacientes/:id/editar
+  H->>D: consultar sessão ativa
+  H->>H: verificar origem e CSRF
+  H->>S: savePatient(owner,input,id?)
+  S->>S: validatePatient
+  S->>D: BEGIN IMMEDIATE
+  S->>D: INSERT/UPDATE patients com escopo
+  S->>D: INSERT events (antes/depois)
+  S->>D: COMMIT
+  H-->>B: 303 detalhe?ok=1
+  B->>H: GET detalhe
+  H->>S: patient, appointments, history
+  H-->>B: HTML com dados persistidos
+  Note over S,D: Erro provoca ROLLBACK; status alterna via setPatientStatus

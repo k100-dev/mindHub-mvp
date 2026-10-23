@@ -1,0 +1,24 @@
+sequenceDiagram
+  actor P as Profissional
+  participant B as Navegador
+  participant H as src/server.ts
+  participant S as MindHub
+  participant D as SQLite
+  P->>B: criar ou alterar início
+  B->>H: POST /agendamentos/novo ou /:id/editar
+  H->>D: validar sessão ativa
+  H->>H: validar origem e CSRF
+  H->>S: saveAppointment(owner,input,id?)
+  S->>S: validateStart; calcular fim em 60 min
+  S->>D: BEGIN IMMEDIATE
+  S->>D: conferir proprietário, status e paciente ativo
+  S->>D: INSERT/UPDATE appointments
+  D->>D: FK composta e trigger de conflito
+  alt intervalo livre
+    S->>D: INSERT events; COMMIT
+    H-->>B: 303 detalhe?ok=1; GET detalhe
+  else conflito
+    D-->>S: SLOT_CONFLICT
+    S->>D: ROLLBACK
+    H-->>B: HTTP 409 e formulário preservado
+  end

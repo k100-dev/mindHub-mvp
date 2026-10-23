@@ -1,0 +1,40 @@
+erDiagram
+  professionals ||--o{ patients : possui
+  professionals ||--o{ appointments : organiza
+  professionals ||--o{ sessions : autentica
+  professionals ||--o{ events : registra
+  patients ||--o{ appointments : recebe
+  professionals { TEXT id PK
+    TEXT name
+    TEXT email UK
+    TEXT password_hash
+    INTEGER active }
+  patients { TEXT id PK
+    TEXT professional_id FK
+    TEXT name
+    TEXT email
+    TEXT phone
+    TEXT birth_date
+    TEXT status
+    TEXT created_at
+    TEXT updated_at }
+  appointments { TEXT id PK
+    TEXT professional_id FK
+    TEXT patient_id FK
+    TEXT starts_at
+    TEXT ends_at
+    TEXT status
+    TEXT created_at
+    TEXT updated_at }
+  sessions { TEXT token_hash PK
+    TEXT professional_id FK
+    TEXT csrf
+    INTEGER expires_at }
+  events { INTEGER id PK
+    TEXT professional_id FK
+    TEXT entity
+    TEXT entity_id
+    TEXT action
+    TEXT before_json
+    TEXT after_json
+    TEXT created_at }

@@ -1,0 +1,13 @@
+flowchart LR
+  subgraph Computador local de demonstração
+    B[Navegador Edge ou Chromium]
+    N[Node HTTP 127.0.0.1:3100]
+    S[Serviço MindHub compilado TypeScript]
+    D[(data/mindhub.sqlite)]
+    M[migrations/001_initial.sql]
+    B <-->|HTTP HTML CSS formulários| N
+    N --> S
+    S -->|SQL parametrizado, transações| D
+    M -->|openDatabase aplica pendentes| D
+  end
+  O[MindHub original: somente referência, sem conexão de execução]

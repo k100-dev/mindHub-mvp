@@ -1,0 +1,219 @@
+﻿[
+    {
+        "pdf":  "EST-01-SOLICITACAO.pdf",
+        "page":  1,
+        "image":  "EST-01-SOLICITACAO-pagina-01.png",
+        "width":  793.27996826171875,
+        "height":  1122.56005859375
+    },
+    {
+        "pdf":  "EST-02-SUPLEMENTAR.pdf",
+        "page":  1,
+        "image":  "EST-02-SUPLEMENTAR-pagina-01.png",
+        "width":  793.27996826171875,
+        "height":  1122.56005859375
+    },
+    {
+        "pdf":  "EST-02-SUPLEMENTAR.pdf",
+        "page":  2,
+        "image":  "EST-02-SUPLEMENTAR-pagina-02.png",
+        "width":  793.27996826171875,
+        "height":  1122.56005859375
+    },
+    {
+        "pdf":  "EST-03-VISAO.pdf",
+        "page":  1,
+        "image":  "EST-03-VISAO-pagina-01.png",
+        "width":  793.27996826171875,
+        "height":  1122.56005859375
+    },
+    {
+        "pdf":  "EST-04-CASOS-USO.pdf",
+        "page":  1,
+        "image":  "EST-04-CASOS-USO-pagina-01.png",
+        "width":  1122.56005859375,
+        "height":  793.27996826171875
+    },
+    {
+        "pdf":  "EST-05-CLASSES.pdf",
+        "page":  1,
+        "image":  "EST-05-CLASSES-pagina-01.png",
+        "width":  1122.56005859375,
+        "height":  793.27996826171875
+    },
+    {
+        "pdf":  "EST-06-DER.pdf",
+        "page":  1,
+        "image":  "EST-06-DER-pagina-01.png",
+        "width":  1122.56005859375,
+        "height":  793.27996826171875
+    },
+    {
+        "pdf":  "EST-07-UC01.pdf",
+        "page":  1,
+        "image":  "EST-07-UC01-pagina-01.png",
+        "width":  793.27996826171875,
+        "height":  1122.56005859375
+    },
+    {
+        "pdf":  "EST-08-UC02.pdf",
+        "page":  1,
+        "image":  "EST-08-UC02-pagina-01.png",
+        "width":  793.27996826171875,
+        "height":  1122.56005859375
+    },
+    {
+        "pdf":  "EST-09-IMPLANTACAO.pdf",
+        "page":  1,
+        "image":  "EST-09-IMPLANTACAO-pagina-01.png",
+        "width":  1122.56005859375,
+        "height":  793.27996826171875
+    },
+    {
+        "pdf":  "EST-10-SEQUENCIA-UC01.pdf",
+        "page":  1,
+        "image":  "EST-10-SEQUENCIA-UC01-pagina-01.png",
+        "width":  1122.56005859375,
+        "height":  793.27996826171875
+    },
+    {
+        "pdf":  "EST-11-SEQUENCIA-UC02.pdf",
+        "page":  1,
+        "image":  "EST-11-SEQUENCIA-UC02-pagina-01.png",
+        "width":  1122.56005859375,
+        "height":  793.27996826171875
+    },
+    {
+        "pdf":  "EST-12-ESTADOS.pdf",
+        "page":  1,
+        "image":  "EST-12-ESTADOS-pagina-01.png",
+        "width":  1122.56005859375,
+        "height":  793.27996826171875
+    },
+    {
+        "pdf":  "EST-13-GLOSSARIO.pdf",
+        "page":  1,
+        "image":  "EST-13-GLOSSARIO-pagina-01.png",
+        "width":  793.27996826171875,
+        "height":  1122.56005859375
+    },
+    {
+        "pdf":  "EST-13-GLOSSARIO.pdf",
+        "page":  2,
+        "image":  "EST-13-GLOSSARIO-pagina-02.png",
+        "width":  793.27996826171875,
+        "height":  1122.56005859375
+    },
+    {
+        "pdf":  "EST-14-TELAS.pdf",
+        "page":  1,
+        "image":  "EST-14-TELAS-pagina-01.png",
+        "width":  793.27996826171875,
+        "height":  1122.56005859375
+    },
+    {
+        "pdf":  "EST-14-TELAS.pdf",
+        "page":  2,
+        "image":  "EST-14-TELAS-pagina-02.png",
+        "width":  793.27996826171875,
+        "height":  1122.56005859375
+    },
+    {
+        "pdf":  "EST-14-TELAS.pdf",
+        "page":  3,
+        "image":  "EST-14-TELAS-pagina-03.png",
+        "width":  793.27996826171875,
+        "height":  1122.56005859375
+    },
+    {
+        "pdf":  "EST-14-TELAS.pdf",
+        "page":  4,
+        "image":  "EST-14-TELAS-pagina-04.png",
+        "width":  793.27996826171875,
+        "height":  1122.56005859375
+    },
+    {
+        "pdf":  "EST-14-TELAS.pdf",
+        "page":  5,
+        "image":  "EST-14-TELAS-pagina-05.png",
+        "width":  793.27996826171875,
+        "height":  1122.56005859375
+    },
+    {
+        "pdf":  "EST-14-TELAS.pdf",
+        "page":  6,
+        "image":  "EST-14-TELAS-pagina-06.png",
+        "width":  793.27996826171875,
+        "height":  1122.56005859375
+    },
+    {
+        "pdf":  "EST-14-TELAS.pdf",
+        "page":  7,
+        "image":  "EST-14-TELAS-pagina-07.png",
+        "width":  793.27996826171875,
+        "height":  1122.56005859375
+    },
+    {
+        "pdf":  "EST-14-TELAS.pdf",
+        "page":  8,
+        "image":  "EST-14-TELAS-pagina-08.png",
+        "width":  793.27996826171875,
+        "height":  1122.56005859375
+    },
+    {
+        "pdf":  "EST-14-TELAS.pdf",
+        "page":  9,
+        "image":  "EST-14-TELAS-pagina-09.png",
+        "width":  793.27996826171875,
+        "height":  1122.56005859375
+    },
+    {
+        "pdf":  "EST-14-TELAS.pdf",
+        "page":  10,
+        "image":  "EST-14-TELAS-pagina-10.png",
+        "width":  793.27996826171875,
+        "height":  1122.56005859375
+    },
+    {
+        "pdf":  "EST-16-FUNCIONAL-01.pdf",
+        "page":  1,
+        "image":  "EST-16-FUNCIONAL-01-pagina-01.png",
+        "width":  793.27996826171875,
+        "height":  1122.56005859375
+    },
+    {
+        "pdf":  "EST-17-FUNCIONAL-02.pdf",
+        "page":  1,
+        "image":  "EST-17-FUNCIONAL-02-pagina-01.png",
+        "width":  793.27996826171875,
+        "height":  1122.56005859375
+    },
+    {
+        "pdf":  "EST-18-AS-IS.pdf",
+        "page":  1,
+        "image":  "EST-18-AS-IS-pagina-01.png",
+        "width":  1122.56005859375,
+        "height":  793.27996826171875
+    },
+    {
+        "pdf":  "EST-19-RELATORIO.pdf",
+        "page":  1,
+        "image":  "EST-19-RELATORIO-pagina-01.png",
+        "width":  793.27996826171875,
+        "height":  1122.56005859375
+    },
+    {
+        "pdf":  "EST-19-RELATORIO.pdf",
+        "page":  2,
+        "image":  "EST-19-RELATORIO-pagina-02.png",
+        "width":  793.27996826171875,
+        "height":  1122.56005859375
+    },
+    {
+        "pdf":  "EST-19-RELATORIO.pdf",
+        "page":  3,
+        "image":  "EST-19-RELATORIO-pagina-03.png",
+        "width":  793.27996826171875,
+        "height":  1122.56005859375
+    }
+]

@@ -1,0 +1,12 @@
+flowchart LR
+  P[Profissional autenticada e ativa]
+  subgraph MindHub MVP
+    L([Autenticar acesso])
+    U1([UC01 Gerenciar pacientes])
+    U2([UC02 Gerenciar agendamentos])
+  end
+  P --- L
+  P --- U1
+  P --- U2
+  U1 -. cadastrar, consultar, editar, inativar e reativar .-> C[Carteira profissional]
+  U2 -. criar, consultar, remarcar e cancelar .-> A[Agenda profissional]

@@ -1,0 +1,110 @@
+[
+  {
+    "file": "EST-01-SOLICITACAO.pdf",
+    "source": "docs/estagio/fase-2/01-requisitos/EST-01-SOLICITACAO.md",
+    "status": "EM ELABORAÇÃO",
+    "code": "923f5b0"
+  },
+  {
+    "file": "EST-02-SUPLEMENTAR.pdf",
+    "source": "docs/estagio/fase-2/01-requisitos/EST-02-SUPLEMENTAR.md",
+    "status": "EM ELABORAÇÃO",
+    "code": "923f5b0"
+  },
+  {
+    "file": "EST-03-VISAO.pdf",
+    "source": "docs/estagio/fase-2/01-requisitos/EST-03-VISAO.md",
+    "status": "EM ELABORAÇÃO",
+    "code": "923f5b0"
+  },
+  {
+    "file": "EST-04-CASOS-USO.pdf",
+    "source": "docs/estagio/fase-2/03-diagramas/EST-04-CASOS-USO.md",
+    "status": "AGUARDANDO REVISÃO",
+    "code": "923f5b0"
+  },
+  {
+    "file": "EST-05-CLASSES.pdf",
+    "source": "docs/estagio/fase-2/03-diagramas/EST-05-CLASSES.md",
+    "status": "AGUARDANDO REVISÃO",
+    "code": "923f5b0"
+  },
+  {
+    "file": "EST-06-DER.pdf",
+    "source": "docs/estagio/fase-2/03-diagramas/EST-06-DER.md",
+    "status": "AGUARDANDO REVISÃO",
+    "code": "923f5b0"
+  },
+  {
+    "file": "EST-07-UC01.pdf",
+    "source": "docs/estagio/fase-2/02-casos-de-uso/EST-07-UC01.md",
+    "status": "AGUARDANDO REVISÃO",
+    "code": "923f5b0"
+  },
+  {
+    "file": "EST-08-UC02.pdf",
+    "source": "docs/estagio/fase-2/02-casos-de-uso/EST-08-UC02.md",
+    "status": "AGUARDANDO REVISÃO",
+    "code": "923f5b0"
+  },
+  {
+    "file": "EST-09-IMPLANTACAO.pdf",
+    "source": "docs/estagio/fase-2/03-diagramas/EST-09-IMPLANTACAO.md",
+    "status": "AGUARDANDO REVISÃO",
+    "code": "923f5b0"
+  },
+  {
+    "file": "EST-10-SEQUENCIA-UC01.pdf",
+    "source": "docs/estagio/fase-2/03-diagramas/EST-10-SEQUENCIA-UC01.md",
+    "status": "AGUARDANDO REVISÃO",
+    "code": "923f5b0"
+  },
+  {
+    "file": "EST-11-SEQUENCIA-UC02.pdf",
+    "source": "docs/estagio/fase-2/03-diagramas/EST-11-SEQUENCIA-UC02.md",
+    "status": "AGUARDANDO REVISÃO",
+    "code": "923f5b0"
+  },
+  {
+    "file": "EST-12-ESTADOS.pdf",
+    "source": "docs/estagio/fase-2/03-diagramas/EST-12-ESTADOS.md",
+    "status": "AGUARDANDO REVISÃO",
+    "code": "923f5b0"
+  },
+  {
+    "file": "EST-13-GLOSSARIO.pdf",
+    "source": "docs/estagio/fase-2/01-requisitos/EST-13-GLOSSARIO.md",
+    "status": "EM ELABORAÇÃO",
+    "code": "923f5b0"
+  },
+  {
+    "file": "EST-14-TELAS.pdf",
+    "source": "docs/estagio/fase-2/04-telas/EST-14-TELAS.md",
+    "status": "AGUARDANDO REVISÃO",
+    "code": "923f5b0"
+  },
+  {
+    "file": "EST-16-FUNCIONAL-01.pdf",
+    "source": "docs/estagio/fase-2/02-casos-de-uso/EST-16-FUNCIONAL-01.md",
+    "status": "AGUARDANDO REVISÃO",
+    "code": "923f5b0"
+  },
+  {
+    "file": "EST-17-FUNCIONAL-02.pdf",
+    "source": "docs/estagio/fase-2/02-casos-de-uso/EST-17-FUNCIONAL-02.md",
+    "status": "AGUARDANDO REVISÃO",
+    "code": "923f5b0"
+  },
+  {
+    "file": "EST-18-AS-IS.pdf",
+    "source": "docs/estagio/fase-2/03-diagramas/EST-18-AS-IS.md",
+    "status": "EM ELABORAÇÃO",
+    "code": "923f5b0"
+  },
+  {
+    "file": "EST-19-RELATORIO.pdf",
+    "source": "docs/estagio/fase-2/05-relatorio/EST-19-RELATORIO.md",
+    "status": "EM ELABORAÇÃO",
+    "code": "923f5b0"
+  }
+]

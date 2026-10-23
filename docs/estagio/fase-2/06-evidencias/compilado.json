@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-23T23:20:14.598Z",
+  "execution": "npm start -> node dist/server.js",
+  "loginPage": 200,
+  "login": 303,
+  "patients": 200,
+  "syntheticPatients": 2,
+  "logout": 303,
+  "afterLogout": 401
+}

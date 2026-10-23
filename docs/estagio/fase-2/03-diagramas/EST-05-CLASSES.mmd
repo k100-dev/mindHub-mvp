@@ -1,0 +1,39 @@
+classDiagram
+  class Patient {
+    +string id
+    +string professional_id
+    +string name
+    +string email
+    +string phone
+    +string birth_date
+    +ATIVO_INATIVO status
+    +string created_at
+    +string updated_at
+  }
+  class Appointment {
+    +string id
+    +string professional_id
+    +string patient_id
+    +string starts_at
+    +string ends_at
+    +AGENDADO_CANCELADO status
+    +string created_at
+    +string updated_at
+  }
+  class MindHub {
+    +DatabaseSync db
+    +patients(owner,q)
+    +patient(owner,id)
+    +savePatient(owner,input,id)
+    +setPatientStatus(owner,id,status)
+    +appointments(owner)
+    +appointment(owner,id)
+    +saveAppointment(owner,input,id)
+    +cancelAppointment(owner,id)
+    +history(owner,entity,id)
+    +transaction(operation)
+    +event(owner,entity,id,action,before,after)
+  }
+  Patient "1" -- "0..*" Appointment : vincula
+  MindHub ..> Patient : valida e persiste
+  MindHub ..> Appointment : valida e persiste

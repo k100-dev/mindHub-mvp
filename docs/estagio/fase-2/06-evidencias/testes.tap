@@ -1,0 +1,78 @@
+TAP version 13
+# (node:12740) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: T01 UC01 cadastro, pesquisa sem acento, edição, inativação, reativação e auditoria
+ok 1 - T01 UC01 cadastro, pesquisa sem acento, edição, inativação, reativação e auditoria
+  ---
+  duration_ms: 30.5995
+  type: 'test'
+  ...
+# Subtest: T02 rejeita entradas inválidas, datas inexistentes, passadas e e-mail duplicado
+ok 2 - T02 rejeita entradas inválidas, datas inexistentes, passadas e e-mail duplicado
+  ---
+  duration_ms: 4.0014
+  type: 'test'
+  ...
+# Subtest: T03 isolamento de leitura, mutações, FK composta e conflito por profissional
+ok 3 - T03 isolamento de leitura, mutações, FK composta e conflito por profissional
+  ---
+  duration_ms: 6.2837
+  type: 'test'
+  ...
+# Subtest: T04 UC02 conflito atômico, adjacência, remarcação e cancelamento terminal
+ok 4 - T04 UC02 conflito atômico, adjacência, remarcação e cancelamento terminal
+  ---
+  duration_ms: 7.5456
+  type: 'test'
+  ...
+# Subtest: T05 inativação preserva agenda e bloqueia criação e remarcação, permite cancelar
+ok 5 - T05 inativação preserva agenda e bloqueia criação e remarcação, permite cancelar
+  ---
+  duration_ms: 4.9053
+  type: 'test'
+  ...
+# Subtest: T06 persistência após fechamento, migração idempotente e integridade SQLite
+ok 6 - T06 persistência após fechamento, migração idempotente e integridade SQLite
+  ---
+  duration_ms: 39.2444
+  type: 'test'
+  ...
+# Subtest: T07 duas conexões não inserem intervalos sobrepostos
+ok 7 - T07 duas conexões não inserem intervalos sobrepostos
+  ---
+  duration_ms: 27.2952
+  type: 'test'
+  ...
+# (node:12740) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# (node:12740) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: T10 concorrência real com dois workers: exatamente uma reserva e um conflito
+ok 8 - T10 concorrência real com dois workers: exatamente uma reserva e um conflito
+  ---
+  duration_ms: 222.5104
+  type: 'test'
+  ...
+# (node:13840) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: T08 HTTP: acesso fechado, login, CSRF, autorização, persistência, cookie e logout
+ok 9 - T08 HTTP: acesso fechado, login, CSRF, autorização, persistência, cookie e logout
+  ---
+  duration_ms: 575.1167
+  type: 'test'
+  ...
+# Subtest: T09 bloqueio de força bruta e sessão expirada/inativa
+ok 10 - T09 bloqueio de força bruta e sessão expirada/inativa
+  ---
+  duration_ms: 539.5741
+  type: 'test'
+  ...
+1..10
+# tests 10
+# suites 0
+# pass 10
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1438.8103

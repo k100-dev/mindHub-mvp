@@ -1,0 +1,4 @@
+
+> mindhub-mvp-academico@0.1.0 lint
+> eslint src scripts tests e2e *.mjs
+

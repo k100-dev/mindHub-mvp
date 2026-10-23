@@ -1,0 +1,5 @@
+
+> mindhub-mvp-academico@0.1.0 build
+> tsc && node scripts/copy-assets.mjs
+
+Build TypeScript e CSS concluído. Migrações permanecem em migrations/.

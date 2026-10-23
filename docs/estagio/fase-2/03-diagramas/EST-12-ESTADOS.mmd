@@ -1,0 +1,12 @@
+stateDiagram-v2
+  [*] --> AGENDADO : criar para paciente ATIVO, início futuro
+  AGENDADO --> AGENDADO : remarcar em intervalo livre, paciente ATIVO
+  AGENDADO --> CANCELADO : cancelar preservando histórico
+  CANCELADO --> [*]
+  note right of AGENDADO
+    Conflito rejeita alteração; conserva início original.
+    Não há transição automática por passagem de tempo.
+  end note
+  note right of CANCELADO
+    Terminal; não permite remarcação nem reabertura.
+  end note
