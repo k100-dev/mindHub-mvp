@@ -1,0 +1,26 @@
+{
+  "name": "mindhub-mvp-academico",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22.23.4" },
+  "scripts": {
+    "dev": "node --experimental-strip-types src/server.ts",
+    "start": "node dist/server.js",
+    "db:migrate": "node --experimental-strip-types scripts/migrate.ts",
+    "db:seed": "node --experimental-strip-types scripts/seed.ts",
+    "lint": "eslint src scripts tests e2e *.mjs",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc && node scripts/copy-assets.mjs",
+    "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "test:e2e": "node --experimental-strip-types e2e/browser.mjs",
+    "docs:preview": "node scripts/docs.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "24.3.0",
+    "@eslint/js": "9.33.0",
+    "eslint": "9.33.0",
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.41.0"
+  }
+}
