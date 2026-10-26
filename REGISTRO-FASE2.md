@@ -46,3 +46,9 @@ Documento lido integralmente após a disponibilização. O impedimento de leitur
 O MindHub original permanece preservado, inclusive a alteração preexistente no lockfile. Nenhum `.env`, dado pessoal ou banco original foi copiado. Não houve acesso a produção.
 
 Documentação final de referência: docs/estagio/fase-2/INDICE.md. Para finalizar a entrega acadêmica faltam os modelos DOCX, definição de RPOD, confirmação de As-Is e revisão/aprovação do aluno. Sem envio ou aceite institucional presumido.
+
+## 2026-10-26 — Conferência da publicação
+
+O envio autorizado para mindHub-mvp foi recusado pelo GitHub com credencial inválida ou expirada. A API remota retornou lista de branches vazia; nenhum envio parcial foi observado. Os commits locais 289285e, 923f5b0 e 705b468 estão preservados. Nenhum arquivo ou configuração do original foi alterado. Detalhes e comando para retomar em docs/estagio/fase-2/00-controle/PUBLICACAO.md.
+
+O código e as evidências não mudaram nesta conferência; os testes continuam identificados pela execução real de 23/10/2026, sem alegar repetição em 26/10/2026. Persistem os bloqueios institucionais já registrados e, adicionalmente, a autenticação necessária para o push do MVP.
