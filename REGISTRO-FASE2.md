@@ -52,3 +52,9 @@ Documentação final de referência: docs/estagio/fase-2/INDICE.md. Para finaliz
 O envio autorizado para mindHub-mvp foi recusado pelo GitHub com credencial inválida ou expirada. A API remota retornou lista de branches vazia; nenhum envio parcial foi observado. Os commits locais 289285e, 923f5b0 e 705b468 estão preservados. Nenhum arquivo ou configuração do original foi alterado. Detalhes e comando para retomar em docs/estagio/fase-2/00-controle/PUBLICACAO.md.
 
 O código e as evidências não mudaram nesta conferência; os testes continuam identificados pela execução real de 23/10/2026, sem alegar repetição em 26/10/2026. Persistem os bloqueios institucionais já registrados e, adicionalmente, a autenticação necessária para o push do MVP.
+
+## 2026-10-26 — Retomada e publicação concluída
+
+Após solicitação de retomada, a autenticação oficial pelo navegador no Git Credential Manager foi concluída com autorização. O push para mindHub-mvp passou e a API confirmou main em 289285e504954591102e9205943b8687b3753006 e fase-2/mvp-academico em 6c41ea5a3bbd135976b3103bbed8ecd9dff57d17 na primeira publicação bem-sucedida. O impedimento de autenticação está resolvido. A implementação não foi mesclada em main.
+
+Os 18 checksums das prévias foram conferidos sem divergência. O servidor compilado continuou respondendo HTTP 200 em /entrar. Original local e clone de referência permanecem preservados. Solicitados ao aluno o significado/modelo de RPOD e os fatos do processo manual As-Is; não serão preenchidos por suposição.
