@@ -42,6 +42,8 @@ Requisitos detalhados: 01-requisitos/ESCOPO.md. Modelo de dados executável: mig
 
 [Resultados](06-evidencias/RESULTADOS.md), TAP de testes, logs de lint/tipagem/build, navegador.json e rasterizações dos PDFs em 06-evidencias/pdf-render. [Prévias PDF individuais](06-evidencias/pdf-previa) são material de revisão, sem compactação. Não são finais aprovados para submissão.
 
+Revisão visual de 26/10/2026: [interface posicionada para uso cotidiano](04-telas/revisao-posicionamento-2026-10-26/LEIA-ME.md), com quatro capturas novas. A interface apresenta a marca MindHub, sem rótulos acadêmicos. As prévias anteriores continuam vinculadas à versão de código indicada nelas e preservadas como histórico.
+
 07-entrega-pdf fica vazio até revisão e aprovação aplicável; não contém ZIP, fontes ou .gitkeep. Diretório vazio é recriado por npm run docs:preview e não é representado em Git. Não há comprovante de envio ou aceite.
 
 [Pendências institucionais](99-referencias/PENDENCIAS-INSTITUCIONAIS.md): modelos DOCX ausentes, RPOD e confirmação do As-Is. Para fechar a etapa acadêmica é necessário fornecer essas referências e validar o material com o aluno.

@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-26T23:05:06.383Z",
+  "results": [
+    {
+      "screen": "01-acesso-profissional",
+      "title": "Entrar · MindHub",
+      "header": "m\nMindHub",
+      "footer": "MindHub · Organização para cuidar",
+      "overflow": false
+    },
+    {
+      "screen": "02-pacientes",
+      "title": "Pacientes · MindHub",
+      "header": "m\nMindHub\nPacientes\nAgendamentos\nSair",
+      "footer": "MindHub · Organização para cuidar",
+      "overflow": false
+    },
+    {
+      "screen": "03-agendamentos",
+      "title": "Agendamentos · MindHub",
+      "header": "m\nMindHub\nPacientes\nAgendamentos\nSair",
+      "footer": "MindHub · Organização para cuidar",
+      "overflow": false
+    },
+    {
+      "screen": "04-agendamentos-mobile",
+      "title": "Agendamentos · MindHub",
+      "header": "m\nMindHub\nPacientes\nAgendamentos\nSair",
+      "footer": "MindHub · Organização para cuidar",
+      "overflow": false
+    }
+  ]
+}

@@ -10,5 +10,6 @@
 | 23/10/2026 | v0.1 auditoria | Etapa F: lint/tipagem/build, 10 testes, navegação, reinstalação limpa, seed idempotente e revisão visual de PDFs; impedimentos acadêmicos explicitados |
 | 26/10/2026 | Publicação pendente | Push ao MVP recusado por autenticação; API remota sem branches; commits locais preservados. Testes de 23/10 não foram declarados como nova execução |
 | 26/10/2026 | Publicação concluída | Após retomada e autenticação oficial pelo navegador, main e fase-2/mvp-academico foram publicadas no MVP e os hashes conferidos via API. Original preservado; pendências acadêmicas mantidas |
+| 26/10/2026 | Posicionamento de interface | Removidos rótulos de MVP, fase acadêmica e demonstração das telas; produto apresentado como MindHub para uso cotidiano. Lint/tipagem/build e quatro telas no navegador verificados; novas capturas separadas das evidências históricas |
 
 Status de ciclo: EM ELABORAÇÃO → AGUARDANDO REVISÃO → PRONTO PARA ENVIO → ENVIADO → ACEITO. Os três últimos exigem respectivamente aprovação para submissão, comprovante de envio e comprovação de aceite. Nenhum artefato foi declarado enviado ou aceito.

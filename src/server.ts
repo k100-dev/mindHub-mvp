@@ -169,6 +169,6 @@ if (process.argv[1] && resolve(process.argv[1])===fileURLToPath(import.meta.url)
   const server=createApp(db);
   const host=process.env.HOST || '127.0.0.1';
   const port=Number(process.env.PORT || '3100');
-  server.listen(port,host,()=>console.log(`MindHub MVP: http://${host}:${port}`));
+  server.listen(port,host,()=>console.log(`MindHub: http://${host}:${port}`));
   for (const signal of ['SIGINT','SIGTERM'] as const) process.on(signal,()=>server.close(()=>{db.close();process.exit(0);}));
 }

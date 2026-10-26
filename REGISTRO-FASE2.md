@@ -58,3 +58,9 @@ O código e as evidências não mudaram nesta conferência; os testes continuam 
 Após solicitação de retomada, a autenticação oficial pelo navegador no Git Credential Manager foi concluída com autorização. O push para mindHub-mvp passou e a API confirmou main em 289285e504954591102e9205943b8687b3753006 e fase-2/mvp-academico em 6c41ea5a3bbd135976b3103bbed8ecd9dff57d17 na primeira publicação bem-sucedida. O impedimento de autenticação está resolvido. A implementação não foi mesclada em main.
 
 Os 18 checksums das prévias foram conferidos sem divergência. O servidor compilado continuou respondendo HTTP 200 em /entrar. Original local e clone de referência permanecem preservados. Solicitados ao aluno o significado/modelo de RPOD e os fatos do processo manual As-Is; não serão preenchidos por suposição.
+
+## 2026-10-26 — Posicionamento do produto para uso cotidiano
+
+Solicitação do aluno: a aplicação não deve apresentar explicitamente seu caráter de MVP. Cabeçalho, título da aba e rodapé agora apresentam somente MindHub e linguagem operacional; a área autenticada usa “Área profissional”. O contexto acadêmico permanece restrito aos documentos técnicos e de entrega. Nenhum cadastro ou banco original foi alterado.
+
+Lint, tipagem e build aprovados; compilado reiniciado. Login, pacientes, agendamentos e agenda móvel em 375px conferidos no navegador, sem rótulos acadêmicos nos elementos globais e sem overflow horizontal. Quatro capturas novas e resultado da verificação em docs/estagio/fase-2/04-telas/revisao-posicionamento-2026-10-26. Capturas/PDFs anteriores preservados com sua referência histórica; testes de domínio anteriores não foram declarados como nova execução.
